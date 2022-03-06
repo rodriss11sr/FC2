@@ -4,22 +4,22 @@
 **    pract2a.asm  10/6/2014
 **
 **    Fundamentos de Computadores
-**    Dpto. de Arquitectura de Computadores y Automática
-**    Facultad de Informática. Universidad Complutense de Madrid
+**    Dpto. de Arquitectura de Computadores y Automï¿½tica
+**    Facultad de Informï¿½tica. Universidad Complutense de Madrid
 **
-**  Propósito:
-**    Busca el valor máximo de un vector de enteros positivos
+**  Propï¿½sito:
+**    Busca el valor mï¿½ximo de un vector de enteros positivos
 **
-**  Notas de diseño:
+**  Notas de diseï¿½o:
 **
 **---------------------------------------------------------------*/
 
 .global start
 
-.EQU 	N, 5
+.EQU 	N, 8
 
 .data
-A: 		.word 1,2,3,4,5
+A: 		.word 7,3,25,4,75,2,1,1
 
 .bss
 max: 	.space 4
